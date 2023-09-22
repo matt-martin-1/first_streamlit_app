@@ -43,3 +43,5 @@ my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
 my_data_rows = my_cur.fetchall()
 streamlit.header("Fruit load list contains:")
 streamlit.dataframe(my_data_rows)
+## Error can be found in lesson 12 of badge 2
+
